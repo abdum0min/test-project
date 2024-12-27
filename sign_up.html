@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- nav start -->
+    <nav class="navbar navbar-expand-lg bg-primary "data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand " href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <div style="margin-right: 20px;" class="">
+              <button class="btn btn-success b-tn"> <a class="aa" href="./sign_up.html">sign up</a></button><br class="bol" style="display: none;">
+              <button class="btn btn-light  b-tn"><a style="text-decoration: none; color: black;" href="./login.html">log in</a></button>
+            </div>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light " type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- nav end -->
+
+
+
+      <!-- form start -->
+      <div class="container-fluid">
+        <div class="row">
+          <div style=" margin-top: 10vh;" class="illustration col-lg-6 col-md-12 d-flex justify-content-end">
+            <img style="width: 400px; height: 400px; " src="./imgsh/cbdc9bf758a327b81d8c8a937f95fcf4.jpg" alt="">
+          </div>
+          <div class="col-lg-6 col-md-12  ">
+            <form class="" style="width: 300px; height: 300px; margin: auto;   margin-top: 20vh !important; border-radius: 30px;"> 
+              <h2 class="">sign up</h2>
+              <label for="email">email</label>
+              <input id="email" name="email" class="form-control" type="email">
+              <label for="password">password</label>
+              <input id="password" name="password" class="form-control" type="password">
+              <label for="r-password">confirm password</label>
+              <input id="r-password" name="r-password" class="form-control" type="password">
+              <button type="submit " class="btn btn-success" style="margin-top: 10px; width: 100%;">submit</button>
+              <p>if you hava already accaunt <a href="./login.html">login</a></p>   
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- form end -->
+
+
+
+    <!-- footer start -->
+    <div class="foooter bg-primary py-1 text-center  " style="margin-top: 21vh;">
+        <p>Copy right 2024 </p>
+    </div>
+
+    
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

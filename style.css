@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.aa{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 991px) {
+    .illustration{
+      display: none !important;
+    }
+    .bol{
+      display: block !important;
+    }
+    .b-tn{
+      margin-bottom: 10px;
+    }
+  }
