@@ -10,8 +10,31 @@
     text-decoration: none;
     color: #fff;
 }
+.left ,.right{
+  width: 50%;
+}
+.df{
+  display: flex;
+}
+.like-icon{
+  font-size: 30px;
+}
+.imgg{
+  width: 100%;
+}
 
-
+.tag{
+  border: solid black 2px;
+  padding: 0 5px;
+  border-radius: 10px;
+}
+.mini-img{
+  width: 90px;
+  height: 50px;
+  border: solid 2px black;
+  padding: 3px 3px;
+  border-radius: 10px;
+}
 @media screen and (max-width: 991px) {
     .illustration{
       display: none !important;
@@ -22,4 +45,18 @@
     .b-tn{
       margin-bottom: 10px;
     }
+    .left ,.right{
+      width: 100%;
+    }
+    .df{
+      display: block;
+    }
   }
+  @media screen and (max-width:600px){
+    .imgg{
+      width: 100% !important;
+      height: auto !important;
+    }  
+  }
+
+
