@@ -35,6 +35,9 @@
   padding: 3px 3px;
   border-radius: 10px;
 }
+.form{
+  height: calc(100vh - 104px);
+}
 @media screen and (max-width: 991px) {
     .illustration{
       display: none !important;
