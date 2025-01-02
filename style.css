@@ -19,7 +19,7 @@
 .like-icon{
   font-size: 30px;
 }
-.imgg{
+.big-img{
   width: 100%;
 }
 
@@ -36,7 +36,7 @@
   border-radius: 10px;
 }
 .form{
-  height: calc(100vh - 104px);
+  height: calc(100vh - 96px);
 }
 @media screen and (max-width: 991px) {
     .illustration{
